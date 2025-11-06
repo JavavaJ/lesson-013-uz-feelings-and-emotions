@@ -1,46 +1,79 @@
-## Uzbek — Lesson 003: Feelings and Emotions
+## Uzbek — Feelings and Emotions (His-tuyg‘ular)
 
-A small, focused module for learning Uzbek vocabulary and expressions related to feelings and emotions. This repository is intended to be part of a series of compact, self-contained lessons.
+A compact lesson covering common Uzbek vocabulary for emotions and physical feelings, plus conversation prompts for practice.
 
-### Goals
-- Build a clean dataset of common emotion-related words and phrases in Uzbek
-- Provide clear English translations and example sentences
-- (Planned) Add audio pronunciations and simple practice activities
+### 😄 Ijobiy his-tuyg‘ular (Positive Emotions)
+- Baxtli (Happy)
+- Hayajonlangan (Excited)
+- Faxrlangan (Proud)
+- Tinch (Calm / Peaceful)
+- Umidvor (Hopeful)
+- Minnatdor (Grateful / Thankful)
+- Dam olgan (Relaxed / Rested)
+- Ishonchli (Confident)
 
-### Repository Structure
-The repo starts minimal. Suggested structure as content is added:
+### 😢 Salbiy his-tuyg‘ular (Negative Emotions)
+- Xafa (Sad)
+- G‘azablangan (Angry)
+- Ranjigan (Upset / Hurt)
+- Havotirlangan (Worried / Anxious)
+- Qo‘rqqan (Afraid / Scared)
+- Ko‘ngli qolgan (Disappointed)
+- Uyalgan (Embarrassed)
+- Hasadchi / Hasad qilgan (Jealous)
+- Yolg‘iz (Lonely)
+- Uyatli (Ashamed)
 
-- `data/` — Source data (CSV/JSON) for vocabulary, phrases, example sentences
-- `audio/` — Optional audio files (e.g., MP3/WAV) for pronunciation
-- `notebooks/` — Exploration, prototyping, or annotation notebooks
-- `scripts/` — Utilities for converting, validating, or exporting content
-- `app/` — Optional small UI (web or CLI) to browse/search the content
+### 😯 Neytral yoki aralash his-tuyg‘ular (Neutral or Mixed Feelings)
+- Hayron (Surprised)
+- Qiziquvchan (Curious)
+- Chalg‘igan / Adashgan (Confused)
+- Zerikkan (Bored)
+- Asabiy (Nervous)
 
-### Getting Started
-Right now this repo contains documentation only. As data/scripts land, typical workflows will look like:
+### 💪 Jismoniy holatlar (Physical Feelings)
+- Charchagan (Tired)
+- Och (Hungry)
+- Chanqagan (Thirsty)
+- Issiq (Hot)
+- Sovuq (Cold)
+- Iliq (Warm)
+- Kasal (Ill / Sick)
+- Sog‘ (Well / Healthy)
+- Zaif (Weak)
+- Dam olgan (Rested)
+- Kuchli / Energetik (Strong / Energetic)
 
-1. Create the suggested folders you plan to use (e.g., `data/`, `scripts/`).
-2. Add your vocabulary list (CSV/JSON) to `data/`.
-3. (Optional) Add audio files to `audio/` with consistent naming tied to entries in `data/`.
-4. (Optional) Add scripts to `scripts/` for tasks like export, validation, or flashcard generation.
+---
 
-### Data Format (suggestion)
-If using CSV for vocabulary, a simple schema works well:
+### 😄 Ijobiy his-tuyg‘ular — Savollar (Positive Emotions — Prompts)
+- Bugun o‘zingni qanday his qilyapsan? (How do you feel today?)
+- Qachon baxtli bo‘lasan? (When do you feel happy?)
+- Nima seni hayajonlantiradi? (What makes you excited?)
+- Qachon o‘zing bilan faxrlanib ketasan? (When do you feel proud of yourself?)
+- Qanday paytda o‘zingni tinch his qilasan? (When do you feel calm?)
 
-```csv
-id,uzbek,english,part_of_speech,example_uz,example_en,notes,audio
-001,xursand,glad; happy,adj,"Bugun men xursandman.","I am happy today.",,"audio/001.mp3"
-```
+### 😢 Salbiy his-tuyg‘ular — Savollar (Negative Emotions — Prompts)
+- Nima seni xafa qiladi? (What makes you sad?)
+- Qachon g‘azablanasan? (When do you get angry?)
+- Odamlar seni ranjitganda nima qilasan? (What do you do when people hurt your feelings?)
+- Oxirgi marta qachon havotirlanding? (When was the last time you felt worried?)
+- Nimalardan qo‘rqasan? (What are you afraid of?)
+- Qachon uyalgan eding? (When did you feel embarrassed?)
 
-### Roadmap
-- [ ] Add initial vocabulary dataset (feelings/emotions)
-- [ ] Add example sentences with translations
-- [ ] (Optional) Add audio files and link them in `data/`
-- [ ] Add a simple script to export Anki/CSV flashcards
-- [ ] (Optional) Add a tiny web viewer for browsing/search
+### 😯 Neytral/aralash his-tuyg‘ular — Savollar (Neutral/Mixed — Prompts)
+- Oxirgi marta nimadan hayron bo‘lding? (What surprised you recently?)
+- Nimalarga qiziqasan? (What are you curious about?)
+- Qachon zerikasan? (When do you get bored?)
+- Darsda o‘zingni asabiy his qilasanmi? (Do you feel nervous in class?)
 
-### Contributing
-Issues and pull requests are welcome. Keep the scope of this lesson small and focused. If you want to propose broader changes, consider opening a discussion first.
+### 💪 Jismoniy holatlar — Savollar (Physical Feelings — Prompts)
+- Bugun charchagansanmi? (Are you tired today?)
+- Senga hozir issiqmi yoki sovuqmi? (Do you feel hot or cold right now?)
+- Ochmisan yoki to‘qmisan? (Are you hungry or full?)
+- Chanqadingmi? (Are you thirsty?)
+- O‘zingni sog‘ his qilyapsanmi? (Do you feel well?)
 
-### License
-TBD. If you have a preference (e.g., MIT), add a `LICENSE` file and update this section.
+---
+
+> Eslatma/Note: Uzbek imloda diakritik belgilar (o‘, g‘, sh, ch) ishlatiladi. Matnlarni yozishda to‘g‘ri imlo va belgilarni saqlashni tavsiya etamiz.
